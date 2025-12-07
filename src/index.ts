@@ -33,3 +33,23 @@ if (index === 0) {
 }
 
 console.log(index)
+
+
+// UNION TYPES
+
+type StringOrNumber = string | number;
+
+function imprimirTextONumeros(arg1: StringOrNumber, arg2: StringOrNumber) {
+    if (typeof arg1 === 'string') {
+        console.log(arg1 + arg2)
+        return;
+    }
+
+    if (typeof arg2 === 'number') {
+        console.log(arg1 + arg2)
+    }
+}
+
+imprimirTextONumeros('h', 1)
+imprimirTextONumeros(1,1)
+
