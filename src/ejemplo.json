@@ -1,9 +1,9 @@
 {
-  "id": 1,
-  "name": "juan",
-  "gustos": [
-    {
-      "prueba": true
-    }
-  ]
+    "id": 1,
+    "name": "juan",
+    "gustos": [
+        {
+            "prueba": true
+        }
+    ]
 }
