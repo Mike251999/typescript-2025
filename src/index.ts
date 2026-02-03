@@ -1,5 +1,5 @@
-let text: string = 'hola'; //inferir explicito
-let text2 = 'mundo';       //inferir no explicito
+let text: string = 'hola';  // inferir explicito
+let text2 = 'mundo';        // inferir no explicito
 
 
 function printCoord(pt: { x: number; y: number}) {
@@ -18,12 +18,12 @@ persona = { id:2, name: 'rosa', print: () => {} }
 
 let oficinista = {id: 1, name: 'Pedro', print: () => {}, capturar: () => 2}
 
-// tipado pato, para ts el oficinista paso a hacer persona y omite sus demas propiedades
+// tipado pato, para ts el oficinista paso hacer persona y omite sus demás propiedades
 persona = oficinista
 oficinista.capturar()
 persona.print()
 
-// ambitos LET 
+// ambitos LET
 
 let index = 0
 
@@ -51,5 +51,4 @@ function imprimirTextONumeros(arg1: StringOrNumber, arg2: StringOrNumber) {
 }
 
 imprimirTextONumeros('h', 1)
-imprimirTextONumeros(1,1)
-
+imprimirTextONumeros(1, 1)

@@ -29,3 +29,4 @@ function getProperty(key: PropiedadNombreOId, obj: IdName) {
 
 getProperty("id", {id: 1, name: "Alejandra"})
 getProperty("name", {id: 1, name: "Alejandra"})
+

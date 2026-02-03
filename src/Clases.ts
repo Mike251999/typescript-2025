@@ -49,3 +49,30 @@ const gerente = new Gerente()
 
 imprimir(persona)
 imprimir(gerente)
+
+// funciones y propiedades estaticas
+
+class StaticFunction {
+    static imprimir () {
+        console.log(2)
+    }
+}
+
+StaticFunction.imprimir()
+
+class StaticProperty {
+    static count = 0
+    contar () {
+        StaticProperty.count++
+    }
+}
+
+const primerInstancia = new StaticProperty()
+const segundaInstancia = new StaticProperty()
+
+console.log(StaticProperty.count)
+primerInstancia.contar()
+console.log(StaticProperty.count)
+segundaInstancia.contar()
+console.log(StaticProperty.count)
+
